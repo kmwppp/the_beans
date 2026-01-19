@@ -21,7 +21,11 @@ class HomePageMain extends StatelessWidget {
         slivers: [
           SliverToBoxAdapter(child: HomeTopBanner()),
           SliverToBoxAdapter(
-            child: HomeCategorySection(categoryList: categoryList),
+            child: HomeCategorySection(
+              categoryList: categoryList,
+              verticalPadding: 30,
+              axis: MainAxisAlignment.center,
+            ),
           ),
           SliverToBoxAdapter(
             child: Column(

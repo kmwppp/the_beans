@@ -5,11 +5,13 @@ import '../constants/app_colors.dart';
 extension TextStyleExt on BuildContext {
   TextStyle get bigTitle => AppTextStyles.displayLarge;
   TextStyle get title => AppTextStyles.titleLarge;
+  TextStyle get titleMideum => AppTextStyles.titleMedium;
   TextStyle get body => AppTextStyles.bodyMedium;
   TextStyle get bodySmall => AppTextStyles.bodySmall;
   TextStyle get caption => AppTextStyles.caption;
   TextStyle get captionAccent => AppTextStyles.captionAccent;
   TextStyle get button => AppTextStyles.buttonLabel;
+  TextStyle get hint => AppTextStyles.hintText;
 }
 
 class AppTextStyles {
@@ -108,5 +110,12 @@ class AppTextStyles {
     decoration: TextDecoration.underline,
     decorationColor: Colors.white,
     decorationThickness: 2,
+  );
+
+  static const hintText = TextStyle(
+    fontFamily: _fontFamily,
+    fontSize: 14,
+    fontWeight: FontWeight.w400,
+    color: AppColors.hintTextColor,
   );
 }

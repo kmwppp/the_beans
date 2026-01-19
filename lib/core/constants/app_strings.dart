@@ -24,4 +24,11 @@ class AppStrings {
   /// Home
   static const topBannerTitle = "이번주 로스터리";
   static const roasteryTitle = "커피맛을 조금 아는 남자";
+
+  /// Search
+  static const searchBarHint = "검색어를 입력해주세요.";
+  static const searchCategoryTitle = "카테고리별 검색";
+  static const recentSearchWordTitle = "최근 검색어";
+  static const popularSearchWordTitle = "인기 검색어";
+  static const recentSearchWordsClear = "전체삭제";
 }

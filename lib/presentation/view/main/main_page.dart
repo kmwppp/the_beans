@@ -3,7 +3,7 @@ import 'package:thebeans/presentation/view/favorite/favorite_page_main.dart';
 import 'package:thebeans/presentation/view/home/home_page_main.dart';
 import 'package:thebeans/presentation/view/main/models/navigation_item_model.dart';
 import 'package:thebeans/presentation/view/my/my_page_main.dart';
-import 'package:thebeans/presentation/view/search/search_page_main.dart';
+import 'package:thebeans/presentation/view/search/search_main.dart';
 
 class MainPage extends StatefulWidget {
   const MainPage({super.key});
@@ -17,7 +17,7 @@ class _MainPageState extends State<MainPage> {
 
   final List<Widget> _pages = [
     HomePageMain(),
-    SearchPageMain(),
+    SearchMain(),
     FavoritePageMain(),
     MyPageMain(),
   ];
