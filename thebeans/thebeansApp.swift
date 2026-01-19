@@ -6,12 +6,17 @@
 //
 
 import SwiftUI
+import UIKit
 
 @main
 struct thebeansApp: App {
+    
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(UserData())
         }
     }
 }

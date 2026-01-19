@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE759A3C2B71D5560012C502 /* SignUpFirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE759A3B2B71D5560012C502 /* SignUpFirstView.swift */; };
+		DE759A3F2B71D5A60012C502 /* SignUpFirstViewVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE759A3E2B71D5A60012C502 /* SignUpFirstViewVM.swift */; };
+		DE759A422B71F01C0012C502 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE759A412B71F01C0012C502 /* Colors.swift */; };
+		DE759A442B71FD870012C502 /* SignUpSecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE759A432B71FD870012C502 /* SignUpSecondView.swift */; };
+		DE759A462B71FD930012C502 /* SignUpSecondViewVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE759A452B71FD930012C502 /* SignUpSecondViewVM.swift */; };
+		DE759A492B7202DF0012C502 /* SignUpSecondModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE759A482B7202DF0012C502 /* SignUpSecondModel.swift */; };
+		DE759A4C2B7204700012C502 /* HeaderBackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE759A4B2B7204700012C502 /* HeaderBackButton.swift */; };
+		DE759A4F2B7209A10012C502 /* Drops in Frameworks */ = {isa = PBXBuildFile; productRef = DE759A4E2B7209A10012C502 /* Drops */; };
+		DE759A512B720A7A0012C502 /* ImagePickerBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE759A502B720A7A0012C502 /* ImagePickerBox.swift */; };
 		DE78F88D2B70BC7000DD7B0E /* thebeansApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE78F88C2B70BC7000DD7B0E /* thebeansApp.swift */; };
 		DE78F88F2B70BC7000DD7B0E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE78F88E2B70BC7000DD7B0E /* ContentView.swift */; };
 		DE78F8912B70BC7100DD7B0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE78F8902B70BC7100DD7B0E /* Assets.xcassets */; };
@@ -14,6 +23,13 @@
 		DE78F89E2B70BC7200DD7B0E /* thebeansTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE78F89D2B70BC7200DD7B0E /* thebeansTests.swift */; };
 		DE78F8A82B70BC7200DD7B0E /* thebeansUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE78F8A72B70BC7200DD7B0E /* thebeansUITests.swift */; };
 		DE78F8AA2B70BC7200DD7B0E /* thebeansUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE78F8A92B70BC7200DD7B0E /* thebeansUITestsLaunchTests.swift */; };
+		DE78F8B72B70BCD200DD7B0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE78F8B62B70BCD200DD7B0E /* AppDelegate.swift */; };
+		DE78F8B92B70BD7C00DD7B0E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE78F8B82B70BD7C00DD7B0E /* SceneDelegate.swift */; };
+		DE78F8BC2B70BDCE00DD7B0E /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE78F8BB2B70BDCE00DD7B0E /* UserData.swift */; };
+		DE78F8BF2B70BF9900DD7B0E /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE78F8BE2B70BF9900DD7B0E /* LoginView.swift */; };
+		DE78F8C22B70C1BD00DD7B0E /* LoginViewVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE78F8C12B70C1BD00DD7B0E /* LoginViewVM.swift */; };
+		DE78F8C42B70C47B00DD7B0E /* LoginFirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE78F8C32B70C47B00DD7B0E /* LoginFirstView.swift */; };
+		DE78F8C62B70CE9E00DD7B0E /* LoginSecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE78F8C52B70CE9E00DD7B0E /* LoginSecondView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +50,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DE759A3B2B71D5560012C502 /* SignUpFirstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpFirstView.swift; sourceTree = "<group>"; };
+		DE759A3E2B71D5A60012C502 /* SignUpFirstViewVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpFirstViewVM.swift; sourceTree = "<group>"; };
+		DE759A412B71F01C0012C502 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		DE759A432B71FD870012C502 /* SignUpSecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpSecondView.swift; sourceTree = "<group>"; };
+		DE759A452B71FD930012C502 /* SignUpSecondViewVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpSecondViewVM.swift; sourceTree = "<group>"; };
+		DE759A482B7202DF0012C502 /* SignUpSecondModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpSecondModel.swift; sourceTree = "<group>"; };
+		DE759A4B2B7204700012C502 /* HeaderBackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderBackButton.swift; sourceTree = "<group>"; };
+		DE759A502B720A7A0012C502 /* ImagePickerBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerBox.swift; sourceTree = "<group>"; };
 		DE78F8892B70BC7000DD7B0E /* thebeans.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = thebeans.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE78F88C2B70BC7000DD7B0E /* thebeansApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thebeansApp.swift; sourceTree = "<group>"; };
 		DE78F88E2B70BC7000DD7B0E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +68,13 @@
 		DE78F8A32B70BC7200DD7B0E /* thebeansUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = thebeansUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE78F8A72B70BC7200DD7B0E /* thebeansUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thebeansUITests.swift; sourceTree = "<group>"; };
 		DE78F8A92B70BC7200DD7B0E /* thebeansUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thebeansUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DE78F8B62B70BCD200DD7B0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DE78F8B82B70BD7C00DD7B0E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DE78F8BB2B70BDCE00DD7B0E /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		DE78F8BE2B70BF9900DD7B0E /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		DE78F8C12B70C1BD00DD7B0E /* LoginViewVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewVM.swift; sourceTree = "<group>"; };
+		DE78F8C32B70C47B00DD7B0E /* LoginFirstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFirstView.swift; sourceTree = "<group>"; };
+		DE78F8C52B70CE9E00DD7B0E /* LoginSecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSecondView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE759A4F2B7209A10012C502 /* Drops in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +103,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DE759A3A2B71D5460012C502 /* SignUpView */ = {
+			isa = PBXGroup;
+			children = (
+				DE759A472B7202CC0012C502 /* Model */,
+				DE759A3D2B71D5990012C502 /* ViewModel */,
+				DE759A3B2B71D5560012C502 /* SignUpFirstView.swift */,
+				DE759A432B71FD870012C502 /* SignUpSecondView.swift */,
+				DE759A502B720A7A0012C502 /* ImagePickerBox.swift */,
+			);
+			path = SignUpView;
+			sourceTree = "<group>";
+		};
+		DE759A3D2B71D5990012C502 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DE759A3E2B71D5A60012C502 /* SignUpFirstViewVM.swift */,
+				DE759A452B71FD930012C502 /* SignUpSecondViewVM.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DE759A402B71F00E0012C502 /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				DE759A412B71F01C0012C502 /* Colors.swift */,
+			);
+			path = Enum;
+			sourceTree = "<group>";
+		};
+		DE759A472B7202CC0012C502 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DE759A482B7202DF0012C502 /* SignUpSecondModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DE759A4A2B7204490012C502 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				DE759A4B2B7204700012C502 /* HeaderBackButton.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
 		DE78F8802B70BC7000DD7B0E = {
 			isa = PBXGroup;
 			children = (
@@ -94,10 +171,17 @@
 		DE78F88B2B70BC7000DD7B0E /* thebeans */ = {
 			isa = PBXGroup;
 			children = (
-				DE78F88C2B70BC7000DD7B0E /* thebeansApp.swift */,
-				DE78F88E2B70BC7000DD7B0E /* ContentView.swift */,
+				DE759A4A2B7204490012C502 /* Component */,
+				DE759A402B71F00E0012C502 /* Enum */,
+				DE759A3A2B71D5460012C502 /* SignUpView */,
+				DE78F8BD2B70BF4000DD7B0E /* LoginView */,
+				DE78F8BA2B70BDB200DD7B0E /* Models */,
 				DE78F8902B70BC7100DD7B0E /* Assets.xcassets */,
 				DE78F8922B70BC7100DD7B0E /* Preview Content */,
+				DE78F88E2B70BC7000DD7B0E /* ContentView.swift */,
+				DE78F88C2B70BC7000DD7B0E /* thebeansApp.swift */,
+				DE78F8B62B70BCD200DD7B0E /* AppDelegate.swift */,
+				DE78F8B82B70BD7C00DD7B0E /* SceneDelegate.swift */,
 			);
 			path = thebeans;
 			sourceTree = "<group>";
@@ -127,6 +211,41 @@
 			path = thebeansUITests;
 			sourceTree = "<group>";
 		};
+		DE78F8BA2B70BDB200DD7B0E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DE78F8BB2B70BDCE00DD7B0E /* UserData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DE78F8BD2B70BF4000DD7B0E /* LoginView */ = {
+			isa = PBXGroup;
+			children = (
+				DE78F8C72B70D6C600DD7B0E /* Model */,
+				DE78F8C02B70C17300DD7B0E /* ViewModel */,
+				DE78F8BE2B70BF9900DD7B0E /* LoginView.swift */,
+				DE78F8C32B70C47B00DD7B0E /* LoginFirstView.swift */,
+				DE78F8C52B70CE9E00DD7B0E /* LoginSecondView.swift */,
+			);
+			path = LoginView;
+			sourceTree = "<group>";
+		};
+		DE78F8C02B70C17300DD7B0E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DE78F8C12B70C1BD00DD7B0E /* LoginViewVM.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DE78F8C72B70D6C600DD7B0E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +262,9 @@
 			dependencies = (
 			);
 			name = thebeans;
+			packageProductDependencies = (
+				DE759A4E2B7209A10012C502 /* Drops */,
+			);
 			productName = thebeans;
 			productReference = DE78F8892B70BC7000DD7B0E /* thebeans.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +337,9 @@
 				Base,
 			);
 			mainGroup = DE78F8802B70BC7000DD7B0E;
+			packageReferences = (
+				DE759A4D2B7209A10012C502 /* XCRemoteSwiftPackageReference "Drops" */,
+			);
 			productRefGroup = DE78F88A2B70BC7000DD7B0E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,8 +382,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE78F8BF2B70BF9900DD7B0E /* LoginView.swift in Sources */,
+				DE759A512B720A7A0012C502 /* ImagePickerBox.swift in Sources */,
+				DE759A422B71F01C0012C502 /* Colors.swift in Sources */,
+				DE78F8BC2B70BDCE00DD7B0E /* UserData.swift in Sources */,
+				DE78F8B72B70BCD200DD7B0E /* AppDelegate.swift in Sources */,
+				DE759A442B71FD870012C502 /* SignUpSecondView.swift in Sources */,
+				DE759A492B7202DF0012C502 /* SignUpSecondModel.swift in Sources */,
+				DE78F8C42B70C47B00DD7B0E /* LoginFirstView.swift in Sources */,
+				DE759A4C2B7204700012C502 /* HeaderBackButton.swift in Sources */,
 				DE78F88F2B70BC7000DD7B0E /* ContentView.swift in Sources */,
+				DE759A462B71FD930012C502 /* SignUpSecondViewVM.swift in Sources */,
+				DE78F8C62B70CE9E00DD7B0E /* LoginSecondView.swift in Sources */,
+				DE759A3C2B71D5560012C502 /* SignUpFirstView.swift in Sources */,
 				DE78F88D2B70BC7000DD7B0E /* thebeansApp.swift in Sources */,
+				DE78F8C22B70C1BD00DD7B0E /* LoginViewVM.swift in Sources */,
+				DE78F8B92B70BD7C00DD7B0E /* SceneDelegate.swift in Sources */,
+				DE759A3F2B71D5A60012C502 /* SignUpFirstViewVM.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -577,6 +717,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DE759A4D2B7209A10012C502 /* XCRemoteSwiftPackageReference "Drops" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/omaralbeik/Drops.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DE759A4E2B7209A10012C502 /* Drops */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DE759A4D2B7209A10012C502 /* XCRemoteSwiftPackageReference "Drops" */;
+			productName = Drops;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DE78F8812B70BC7000DD7B0E /* Project object */;
 }
